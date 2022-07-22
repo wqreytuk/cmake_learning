@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/x/cmake_learning/cmake_add_library/Step1/MathFunctions/MathFunctions.h
+cmath
+-
+iostream
+-
+
+/home/x/cmake_learning/cmake_add_library/Step1/tutorial.cxx
+string
+-
+iostream
+-
+TutorialConfig.h
+/home/x/cmake_learning/cmake_add_library/Step1/TutorialConfig.h
+MathFunctions.h
+/home/x/cmake_learning/cmake_add_library/Step1/MathFunctions.h
+cmath
+-
+
+TutorialConfig.h
+
